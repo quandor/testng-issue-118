@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+   <test verbose="0" name="no groups specified">
+      <packages>
+         <package name="beforegroupdemo.*" />
+      </packages>
+   </test>
+   <test verbose="0" name="group1 included">
+      <groups>
+         <run>
+            <include name="group1" />
+         </run>
+      </groups>
+      <packages>
+         <package name="beforegroupdemo.*" />
+      </packages>
+   </test>
+   <test verbose="0" name="group2 included">
+      <groups>
+         <run>
+            <include name="group2" />
+         </run>
+      </groups>
+      <packages>
+         <package name="beforegroupdemo.*" />
+      </packages>
+   </test>
+   <test verbose="0" name="group3 included">
+      <groups>
+         <run>
+            <include name="group3" />
+         </run>
+      </groups>
+      <packages>
+         <package name="beforegroupdemo.*" />
+      </packages>
+   </test>
+</suite>
