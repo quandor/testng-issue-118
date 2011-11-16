@@ -1,1 +1,1 @@
-Simple maven project to reflect the issue https://github.com/cbeust/testng/issues/118
+Simple maven project to reproduce issue https://github.com/cbeust/testng/issues/118
