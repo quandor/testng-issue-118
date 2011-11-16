@@ -3,7 +3,7 @@
 <suite name="Default suite">
    <test verbose="0" name="no groups specified">
       <packages>
-         <package name="beforegroupdemo.*" />
+         <package name="testng_issue_118.*" />
       </packages>
    </test>
    <test verbose="0" name="group1 included">
@@ -13,7 +13,7 @@
          </run>
       </groups>
       <packages>
-         <package name="beforegroupdemo.*" />
+         <package name="testng_issue_118.*" />
       </packages>
    </test>
    <test verbose="0" name="group2 included">
@@ -23,7 +23,7 @@
          </run>
       </groups>
       <packages>
-         <package name="beforegroupdemo.*" />
+         <package name="testng_issue_118.*" />
       </packages>
    </test>
    <test verbose="0" name="group3 included">
@@ -33,7 +33,7 @@
          </run>
       </groups>
       <packages>
-         <package name="beforegroupdemo.*" />
+         <package name="testng_issue_118.*" />
       </packages>
    </test>
 </suite>
