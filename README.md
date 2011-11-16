@@ -1,0 +1,1 @@
+Simple maven project to reflect the issue https://github.com/cbeust/testng/issues/118
